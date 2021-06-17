@@ -15,4 +15,5 @@ There are many `TODOS` around the code, these are other things that should be ta
 - [ ] Improve error handling and statusCodes
 
 # Deploying
-Set AWS credentials in the terminal then run `$ npm run deploy` or `$ yarn deploy`
+  - run `$ npm run bootstrap` or `$ yarn bootstrap`
+  - Set AWS credentials in the terminal then run `$ npm run deploy` or `$ yarn deploy`

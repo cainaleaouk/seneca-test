@@ -9,6 +9,7 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
+    "bootstrap": "yarn && cd src/ && yarn && cd ../",
     "deploy": "yarn build && yarn cdk synth && yarn cdk bootstrap && yarn cdk deploy"
   },
   "dependencies": {
