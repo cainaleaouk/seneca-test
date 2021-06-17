@@ -1,0 +1,16 @@
+{
+  "name": "seneca-aws-src",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cai Leao",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.18.0",
+    "@aws-sdk/lib-dynamodb": "^3.18.0",
+    "@aws-sdk/util-dynamodb": "^3.18.0",
+    "@types/aws-lambda": "^8.10.77"
+  },
+  "devDependencies": {
+    "@aws-sdk/types": "^3.18.0"
+  }
+}
